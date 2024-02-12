@@ -28,7 +28,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/booking?firstname=${firstname}&amp;lastname=${lastname}</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/booking</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

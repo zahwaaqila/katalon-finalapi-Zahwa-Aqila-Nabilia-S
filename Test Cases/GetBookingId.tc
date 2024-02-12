@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GetBooking</name>
+   <name>GetBookingId</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ed74935e-78e9-4206-8f65-9582a7164f9c</testCaseGuid>
+   <testCaseGuid>79555650-5990-44e9-a9d1-cd892d8f1d46</testCaseGuid>
 </TestCaseEntity>
