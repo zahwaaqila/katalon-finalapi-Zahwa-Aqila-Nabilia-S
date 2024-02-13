@@ -5,7 +5,7 @@ Final project API Testing
 
 Dokumentasi ini menyediakan informasi mengenai prosedur pengujian API untuk aplikasi kami. Pengujian diorganisir dalam tiga koleksi test suite utama: `auth`, `booking`, dan `ping`.
 
-## Koleksi Test Suite
+##  Test Suite COllection
 
 ### 1. Auth
 
@@ -66,7 +66,7 @@ Dokumentasi ini menyediakan informasi mengenai prosedur pengujian API untuk apli
 
 - `booking_id`: Menyimpan ID pemesanan terakhir yang dibuat untuk referensi dalam pengujian selanjutnya.
 - `baseURL`: URL dasar untuk permintaan API.
-- 
+  
 ## Detail Repositori Git
 - **URL Repositori:**
   - https://github.com/zahwaaqila/katalon-finalapi-Zahwa-Aqila-Nabilia-Setiawan.git
