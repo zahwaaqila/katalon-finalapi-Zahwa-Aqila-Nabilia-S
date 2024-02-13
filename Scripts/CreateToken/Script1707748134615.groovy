@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WS.sendRequest(findTestObject('Auth/CreateToken'))
 
-
+//token cant verify becaus its unique
 
