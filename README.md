@@ -69,7 +69,7 @@ Dokumentasi ini menyediakan informasi mengenai prosedur pengujian API untuk apli
 - 
 ## Detail Repositori Git
 - **URL Repositori:**
-  - https://github.com/zahwaaqila/Finalproject-website.git
+  - https://github.com/zahwaaqila/katalon-finalapi-Zahwa-Aqila-Nabilia-Setiawan.git
 
 - **Detail Commit:**
   - Beberapa commit dengan pesan commit yang jelas.
