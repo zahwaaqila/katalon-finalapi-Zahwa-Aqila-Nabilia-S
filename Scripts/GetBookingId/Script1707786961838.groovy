@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequestAndVerify(findTestObject('Booking/GetBooking', [('id') : 777]))
+response = WS.sendRequestAndVerify(findTestObject('Booking/GetBookingId'))
 
+WS.verifyElementPropertyValue(response, 'firstname', "Ican")
+WS.verifyElementPropertyValue(response, 'lastname', "Petter")
+WS.verifyElementPropertyValue(response, 'bookingdates.checkin', "2024-02-01")
+WS.verifyElementPropertyValue(response, 'bookingdates.checkout', "2024-02-14")
 
-WS.verifyElementPropertyValue(response, 'firstname', "Josh")
-WS.verifyElementPropertyValue(response, 'lastname', "Allen")
-WS.verifyElementPropertyValue(response, 'bookingdates.checkin', "2018-01-01")
-WS.verifyElementPropertyValue(response, 'bookingdates.checkout', "2019-01-01")

@@ -19,7 +19,7 @@
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
+      <name>Accept</name>
       <type>Main</type>
       <value>application/json</value>
       <webElementGuid>e00389b2-812b-4c80-a499-5fc27dae8aae</webElementGuid>
@@ -28,7 +28,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/booking</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/booking/1084</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -37,20 +37,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>'John'</defaultValue>
-      <description></description>
-      <id>20cbd3f8-197c-4586-8fd8-9e2dddf83f1a</id>
-      <masked>false</masked>
-      <name>firstname</name>
-   </variables>
-   <variables>
-      <defaultValue>'Smith'</defaultValue>
-      <description></description>
-      <id>3623ef75-0fe3-4a74-b8b4-3f54d25cd3da</id>
-      <masked>false</masked>
-      <name>lastname</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -63,6 +49,7 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
