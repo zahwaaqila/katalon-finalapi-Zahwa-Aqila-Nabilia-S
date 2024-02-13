@@ -68,7 +68,7 @@ Dokumentasi ini menyediakan informasi mengenai prosedur pengujian API untuk apli
 - `baseURL`: URL dasar untuk permintaan API.
 
 ## API Chaining Request
-- terdapat pada Test Case GetBooking, GetBookingId, UpdateBooking
+- terdapat pada Test Case `GetBookingId` dan  `UpdateBooking`.
   
 ## Detail Repositori Git
 - **URL Repositori:**
