@@ -66,5 +66,15 @@ Dokumentasi ini menyediakan informasi mengenai prosedur pengujian API untuk apli
 
 - `booking_id`: Menyimpan ID pemesanan terakhir yang dibuat untuk referensi dalam pengujian selanjutnya.
 - `baseURL`: URL dasar untuk permintaan API.
+- 
+## Detail Repositori Git
+- **URL Repositori:**
+  - https://github.com/zahwaaqila/Finalproject-website.git
 
+- **Detail Commit:**
+  - Beberapa commit dengan pesan commit yang jelas.
+
+## Rekaman Video
+- **Berkas Rekaman:**
+  - https://drive.google.com/drive/folders/1Xkwb_M1kl6gffaMOULiW4nYzvq-jLNRb?usp=sharing
 
