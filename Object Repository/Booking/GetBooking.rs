@@ -28,7 +28,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/booking/${id}</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/booking/${bookingid}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -38,11 +38,11 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>777</defaultValue>
+      <defaultValue>GlobalVariable.bookingid</defaultValue>
       <description></description>
-      <id>59768652-c599-4a74-89ac-08d3d1d1e2ce</id>
+      <id>349eddd3-bc23-4ecc-9002-694e302d05ba</id>
       <masked>false</masked>
-      <name>id</name>
+      <name>bookingid</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

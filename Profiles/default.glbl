@@ -9,4 +9,9 @@
       <initValue>'https://restful-booker.herokuapp.com'</initValue>
       <name>baseURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>166</initValue>
+      <name>bookingid</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

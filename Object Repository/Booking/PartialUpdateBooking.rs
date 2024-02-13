@@ -54,7 +54,7 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'2592'</defaultValue>
+      <defaultValue>GlobalVariable.bookingid</defaultValue>
       <description></description>
       <id>57728818-722b-42e6-9d0a-64904c19a5e0</id>
       <masked>false</masked>
