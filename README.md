@@ -66,6 +66,9 @@ Dokumentasi ini menyediakan informasi mengenai prosedur pengujian API untuk apli
 
 - `booking_id`: Menyimpan ID pemesanan terakhir yang dibuat untuk referensi dalam pengujian selanjutnya.
 - `baseURL`: URL dasar untuk permintaan API.
+
+## API Chaining Request
+- terdapat pada Test Case GetBooking, GetBookingId, UpdateBooking
   
 ## Detail Repositori Git
 - **URL Repositori:**
