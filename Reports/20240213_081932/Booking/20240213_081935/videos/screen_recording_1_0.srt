@@ -1,0 +1,28 @@
+1
+00:00:00,439 --> 00:00:05,697
+1. response = sendRequestAndVerify(findTestObject("Booking/GetBookingId"))
+
+2
+00:00:05,711 --> 00:00:05,719
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:05,721 --> 00:00:05,855
+5. response = getInstance().getCurrentResponse()
+
+4
+00:00:05,856 --> 00:00:06,015
+5. verifyElementPropertyValue(response, "firstname", "Ican")
+
+5
+00:00:06,017 --> 00:00:06,093
+9. verifyElementPropertyValue(response, "lastname", "Petter")
+
+6
+00:00:06,096 --> 00:00:06,179
+13. verifyElementPropertyValue(response, "bookingdates.checkin", "2024-02-01")
+
+7
+00:00:06,181 --> 00:00:06,270
+17. verifyElementPropertyValue(response, "bookingdates.checkout", "2024-02-14")
+

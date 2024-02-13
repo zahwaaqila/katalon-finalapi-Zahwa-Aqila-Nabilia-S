@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ping,,,,13-02-2024 08:20:32,13-02-2024 08:20:41,8.130s,PASSED
+,,,,,,,
+Test Cases/HealthCheck,,,,13-02-2024 08:20:33,13-02-2024 08:20:41,7.772s,PASSED
+"sendRequest(findTestObject(""Ping/HealthCheck""))",,,,13-02-2024 08:20:34,13-02-2024 08:20:39,4.938s,PASSED
+Video,,,,13-02-2024 08:20:41,13-02-2024 08:20:41,0.001s,PASSED

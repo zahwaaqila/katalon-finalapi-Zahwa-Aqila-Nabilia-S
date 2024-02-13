@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Auth,,,,13-02-2024 08:19:44,13-02-2024 08:19:51,6.654s,PASSED
+,,,,,,,
+Test Cases/CreateToken,,,,13-02-2024 08:19:44,13-02-2024 08:19:51,6.408s,PASSED
+"sendRequest(findTestObject(""Auth/CreateToken""))",,,,13-02-2024 08:19:45,13-02-2024 08:19:49,3.837s,PASSED
+Video,,,,13-02-2024 08:19:51,13-02-2024 08:19:51,0.001s,PASSED

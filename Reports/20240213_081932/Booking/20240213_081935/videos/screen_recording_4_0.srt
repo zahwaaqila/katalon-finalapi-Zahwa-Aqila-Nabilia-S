@@ -1,0 +1,4 @@
+1
+00:00:00,045 --> 00:00:01,248
+1. sendRequest(findTestObject("Booking/PartialUpdateBooking", ["id":"2592"]))
+

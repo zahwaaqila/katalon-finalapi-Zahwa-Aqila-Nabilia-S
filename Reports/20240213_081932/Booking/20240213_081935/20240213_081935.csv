@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Booking,,,,13-02-2024 08:19:58,13-02-2024 08:20:24,26.551s,PASSED
+,,,,,,,
+Test Cases/GetBookingId,,,,13-02-2024 08:19:58,13-02-2024 08:20:07,8.682s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Booking/GetBookingId""))",,,,13-02-2024 08:19:59,13-02-2024 08:20:04,5.398s,PASSED
+"verifyElementPropertyValue(response, ""firstname"", ""Ican"")",,,,13-02-2024 08:20:04,13-02-2024 08:20:04,0.159s,PASSED
+"verifyElementPropertyValue(response, ""lastname"", ""Petter"")",,,,13-02-2024 08:20:04,13-02-2024 08:20:04,0.078s,PASSED
+"verifyElementPropertyValue(response, ""bookingdates.checkin"", ""2024-02-01"")",,,,13-02-2024 08:20:04,13-02-2024 08:20:04,0.085s,PASSED
+"verifyElementPropertyValue(response, ""bookingdates.checkout"", ""2024-02-14"")",,,,13-02-2024 08:20:04,13-02-2024 08:20:04,0.084s,PASSED
+Video,,,,13-02-2024 08:20:07,13-02-2024 08:20:07,0.001s,PASSED
+,,,,,,,
+Test Cases/CreateBooking,,,,13-02-2024 08:20:07,13-02-2024 08:20:10,3.792s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Booking/CreateBooking""))",,,,13-02-2024 08:20:07,13-02-2024 08:20:08,1.300s,PASSED
+"verifyElementPropertyValue(response, ""booking.firstname"", ""Ican"")",,,,13-02-2024 08:20:08,13-02-2024 08:20:08,0.039s,PASSED
+"verifyElementPropertyValue(response, ""booking.lastname"", ""Petter"")",,,,13-02-2024 08:20:08,13-02-2024 08:20:08,0.042s,PASSED
+"verifyElementPropertyValue(response, ""booking.totalprice"", 200)",,,,13-02-2024 08:20:08,13-02-2024 08:20:08,0.055s,PASSED
+"verifyElementPropertyValue(response, ""booking.depositpaid"", true)",,,,13-02-2024 08:20:08,13-02-2024 08:20:08,0.056s,PASSED
+"verifyElementPropertyValue(response, ""booking.bookingdates.checkin"", ""2024-02-01"")",,,,13-02-2024 08:20:08,13-02-2024 08:20:08,0.055s,PASSED
+"verifyElementPropertyValue(response, ""booking.bookingdates.checkout"", ""2024-02-14"")",,,,13-02-2024 08:20:08,13-02-2024 08:20:08,0.044s,PASSED
+"verifyElementPropertyValue(response, ""booking.additionalneeds"", ""SmookingArea"")",,,,13-02-2024 08:20:08,13-02-2024 08:20:08,0.048s,PASSED
+Video,,,,13-02-2024 08:20:10,13-02-2024 08:20:10,0.000s,PASSED
+,,,,,,,
+Test Cases/GetBooking,,,,13-02-2024 08:20:10,13-02-2024 08:20:14,3.510s,PASSED
+"sendRequest(findTestObject(""Booking/GetBooking""))",,,,13-02-2024 08:20:10,13-02-2024 08:20:12,1.436s,PASSED
+Video,,,,13-02-2024 08:20:14,13-02-2024 08:20:14,0.001s,PASSED
+,,,,,,,
+Test Cases/PartialUpdateBooking,,,,13-02-2024 08:20:14,13-02-2024 08:20:17,3.314s,PASSED
+"sendRequest(findTestObject(""Booking/PartialUpdateBooking"", [""id"":""2592""]))",,,,13-02-2024 08:20:14,13-02-2024 08:20:15,1.201s,PASSED
+Video,,,,13-02-2024 08:20:17,13-02-2024 08:20:17,0.001s,PASSED
+,,,,,,,
+Test Cases/UpdateBooking,,,,13-02-2024 08:20:17,13-02-2024 08:20:21,3.317s,PASSED
+"sendRequest(findTestObject(""Booking/UpdateBooking"", [""id"":361]))",,,,13-02-2024 08:20:17,13-02-2024 08:20:18,1.219s,PASSED
+Video,,,,13-02-2024 08:20:21,13-02-2024 08:20:21,0.001s,PASSED
+,,,,,,,
+Test Cases/DeleteBooking,,,,13-02-2024 08:20:21,13-02-2024 08:20:24,3.560s,PASSED
+"sendRequest(findTestObject(""Booking/GetBooking"", [""id"":777]))",,,,13-02-2024 08:20:21,13-02-2024 08:20:22,1.439s,PASSED
+Video,,,,13-02-2024 08:20:24,13-02-2024 08:20:24,0.001s,PASSED
